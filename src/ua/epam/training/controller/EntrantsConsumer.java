@@ -44,9 +44,6 @@ public class EntrantsConsumer extends Thread{
         view.printMessage(View.MATH_INSTITUTE_STUDENTS_AMOUNT + getMathInstituteStudents().getStudents().size());
         view.printMessage(View.BIOLOGY_INSTITUTE_STUDENTS_AMOUNT + getBiologyInstituteStudents().getStudents().size());
         view.printMessage(View.UNIVERSAL_INSTITUTE_STUDENTS_AMOUNT + getUniversalInstituteStudents().getStudents().size());
-        view.printMessage("sum " +(getMathInstituteStudents().getStudents().size() +
-                getBiologyInstituteStudents().getStudents().size() +
-                getUniversalInstituteStudents().getStudents().size()));
     }
 
     private void waitForFirstEntrants() {
